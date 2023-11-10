@@ -1,0 +1,25 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.about p {
+    color: #aaa;
+    margin-bottom: 2em;
+}
+
+.about a {
+    font-weight: 500;
+}
+
+
+.about h2 {
+    margin-top: 50px;
+}
+
+.about h3 {
+    font-weight: 500;
+    margin-bottom: 15px;
+}
