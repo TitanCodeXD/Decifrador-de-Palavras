@@ -39,3 +39,49 @@
     background-color: black;
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        padding: .5em .2em;
+        width: 100%;
+    }
+
+    .navbar a{
+        font-size: .7em;
+    }
+    
+    .brand {
+        font-size: 20px;
+    }
+
+    .brand img{
+        height: 20px;
+        width: 20px;
+    }
+    
+    .brand span {
+        font-weight: 900;
+        text-transform: uppercase;
+    
+    }
+    
+    .links_list {
+        display: flex;
+        list-style: none;
+        font-size: 15px;
+    }
+    
+    .links_list {
+        margin-right: 1em;
+    }
+    
+    .links_list li a {
+        padding: .4em .6em;
+    }
+    
+    .links_list button:hover{
+        transition: .4s;
+        font-weight: 600;
+        color: red;
+    }
+}

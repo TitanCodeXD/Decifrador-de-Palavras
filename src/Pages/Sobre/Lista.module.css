@@ -35,3 +35,23 @@
     
     margin: 0 15px;
 }
+
+@media only screen and (max-width: 600px) {
+    .center h1 {
+        font-size: 1.4em;
+    }
+
+    .ref h2{
+        font-size: .8em;
+    }
+
+    .ref input{
+        width: 50%;
+    }
+
+    .ref button{
+        font-size: 0.8em;
+        width: 60%;
+    }
+    
+}

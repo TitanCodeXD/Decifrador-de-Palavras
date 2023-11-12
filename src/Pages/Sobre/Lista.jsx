@@ -35,7 +35,7 @@ const Lista = () => {
 
   return (
 
-    <div className = {styles.center}>
+    <div name="viewport" className = {styles.center}>
         <h1>Lista Gartic Atualizada 2023</h1>
 
         <div className = {styles.ref}>

@@ -1,6 +1,7 @@
 //React Imports
 import React from 'react'
 import { useState, useEffect } from 'react';
+import ClipboardJS from 'clipboard';
 
 //CSS
 import styles from './Decifrador.module.css';
@@ -8,16 +9,31 @@ import styles from './Decifrador.module.css';
 //Base de Dados
 import { wordsGeral } from '../../data/words.js';
 
+
 const Decifrador = () => {
+  
+  const CopiaMensagem = ({ mensagem, onClose }) => {
+    return (
+      <div className="copia-mensagem">
+        {mensagem}
+        <span className="fechar" onClick={onClose}>&times;</span>
+      </div>
+    );
+  };
 
     const [tamanho, setTamanho] = useState('');
     const [letra1, setLetra1] = useState('');
-    const [posicao1, setPosicao1] = useState('');
+    const posicao1 = 1;
     const [letra2, setLetra2] = useState('');
     const [posicao2, setPosicao2] = useState('');
     const [letra3, setLetra3] = useState('');
     const [posicao3, setPosicao3] = useState('');
+    const [letra4, setLetra4] = useState('');
+    const [posicao4, setPosicao4] = useState('');
     const [resultados, setResultados] = useState([]);
+
+    const [copiadoMensagem, setCopiadoMensagem] = useState('');
+
     const baseDeDados = wordsGeral;
 
     useEffect(() => {
@@ -26,7 +42,7 @@ const Decifrador = () => {
       }, 100);
   
       return () => clearTimeout(timeoutId);
-    }, [tamanho, letra1, posicao1, letra2, posicao2, letra3, posicao3]);
+    }, [tamanho, letra1, posicao1, letra2, posicao2, letra3, posicao3, letra4, posicao4]);
   
     const filtrarPalavras = () => {
       let resultadosFiltrados = baseDeDados;
@@ -46,11 +62,34 @@ const Decifrador = () => {
       if (letra3 && posicao3) {
         resultadosFiltrados = resultadosFiltrados.filter(palavra => palavra[posicao3 - 1] === letra3.toLowerCase());
       }
+
+      if (letra4 && posicao4) {
+        resultadosFiltrados = resultadosFiltrados.filter(palavra => palavra[posicao4 - 1] === letra4.toLowerCase());
+      }
   
       setResultados(resultadosFiltrados);
     };
 
+  //  const handleInputChange = (e) => {
+  //      Verifica se o valor contém apenas letras
+  //     if (/^[A-Za-z\s]+$/.test(e.target.value)) {
+  //       setTexto(e.target.value);
+  //     }
+  //   /};
 
+  const copiarParaAreaDeTransferencia = (palavra) => {
+    navigator.clipboard.writeText(palavra)
+      .then(() => {
+        setCopiadoMensagem(palavra);
+        setTimeout(() => {
+          setCopiadoMensagem(null);
+        }, 1000); // Oculta a mensagem após 1 segundo
+      })
+      .catch((err) => {
+        console.error('Erro ao copiar para a área de transferência:', err);
+      });
+  };
+  
   return (
 
    <div className = {styles.center}>
@@ -66,6 +105,7 @@ const Decifrador = () => {
       </div>
 
       <div className = {styles.letter}>
+
       <label>
         Letra 1:
         <input type="text" maxLength="1" value={letra1} onChange={(e) => setLetra1(e.target.value)} />
@@ -74,9 +114,12 @@ const Decifrador = () => {
 
       <label>
         Posição letra 1:
-        <input type="number" value={posicao1} onChange={(e) => setPosicao1(e.target.value)} />
+        <input 
+        type="number" 
+        value={posicao1} />
       </label>
       <br />
+
       </div>
 
       <div className = {styles.letter}>
@@ -89,6 +132,8 @@ const Decifrador = () => {
         Posição letra 2:
         <input type="number" value={posicao2} onChange={(e) => setPosicao2(e.target.value)} />
       </label>
+
+
       <br />
       </div>
 
@@ -97,35 +142,78 @@ const Decifrador = () => {
         Letra 3:
         <input type="text" maxLength="1" value={letra3} onChange={(e) => setLetra3(e.target.value)} />
       </label>
+
       <label>
         Posição letra 3:
         <input type="number" value={posicao3} onChange={(e) => setPosicao3(e.target.value)} />
       </label>
+
+
       <br />
       </div>
+
+      <div className = {styles.letter}>
+      <label>
+        Letra 4:
+        <input type="text" maxLength="1" value={letra4} onChange={(e) => setLetra4(e.target.value)} />
+      </label>
+
+      <label>
+        Posição letra 4:
+        <input type="number" value={posicao4} onChange={(e) => setPosicao4(e.target.value)} />
+      </label>
+
+      
+      <br />
+      </div>
+
 
       
       <div className = {styles.results}>
 
-      <ul>
+        <h2>Resultados:</h2>
+        <p style = {{
+          color: 'white',
+          fontWeight: '50'
+          }}>Clique na palavra para copiar</p>
+      <ul className = {styles.column_list}>
 
         {resultados.length > 0 ?(
           <>
-          <h2>Resultados:</h2>
           
           {resultados.length > 0 &&
           resultados.map((palavra, index) => (
-            <li key={index}>{palavra}</li>
+            <li key={index} style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', position: 'relative', borderBottom: '.1px solid gray', paddingBottom: '10px'}}>
+            <span onClick={() => copiarParaAreaDeTransferencia(palavra)}>{palavra}</span>
+            {copiadoMensagem === palavra && (
+              <div style={{
+                position: 'absolute',
+                top: '-20px',
+                right: '-5px',
+                background: '#4CAF50',
+                color: 'white',
+                padding: '5px',
+                borderRadius: '5px',
+                fontSize: '12px',
+                boxShadow: '0px 0px 5px rgba(0,0,0,0.2)',
+              }}>
+                Copiado!
+              </div>
+            )}
+          </li>
           ))}
           
           </>
         ) :(
           <>
-          <p>Sem resultados</p>
+          <div className = {styles.results}>
+            <p>Sem resultados</p>
+            </div>
           </>
         )}
-      </ul>
+        </ul>
 
+      {copiadoMensagem && <CopiaMensagem mensagem={copiadoMensagem} onClose={() => setCopiadoMensagem('')} />}
       </div>
       
     </div>
