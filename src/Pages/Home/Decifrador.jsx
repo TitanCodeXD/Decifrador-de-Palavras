@@ -110,7 +110,7 @@ const Decifrador = () => {
       <div className = {styles.letter}>
 
       <label>
-        Letra 1:
+        1ª Letra:
         <input type="text" maxLength="1" value={letra1} onChange={(e) => {
       const inputValue = e.target.value;
       if (/^[A-Za-z]*$/.test(inputValue)) {
@@ -122,7 +122,7 @@ const Decifrador = () => {
 
       
       <label>
-        Posição letra 1: 
+        Posição 1ª Letra: 
         <input 
         type="number" 
         value={posicao1} 
@@ -137,7 +137,7 @@ const Decifrador = () => {
 
       <div className = {styles.letter}>
       <label>
-        Letra 2:
+        2ª Letra:
         <input type="text" maxLength="1" value={letra2} onChange={(e) => {
       const inputValue = e.target.value;
       if (/^[A-Za-z]*$/.test(inputValue)) {
@@ -147,7 +147,7 @@ const Decifrador = () => {
       </label>
 
       <label>
-        Posição letra 2:
+        Posição 2ª Letra:
         <input type="number" value={posicao2} onChange={(e) => {
       const inputValue = e.target.value;
       if (!isNaN(inputValue) && inputValue >= 0 && inputValue <= 30) {
@@ -162,7 +162,7 @@ const Decifrador = () => {
 
       <div className = {styles.letter}>
       <label>
-        Letra 3:
+        3ª Letra:
         <input type="text" maxLength="1" value={letra3} onChange={(e) => {
       const inputValue = e.target.value;
       if (/^[A-Za-z]*$/.test(inputValue)) {
@@ -172,7 +172,7 @@ const Decifrador = () => {
       </label>
 
       <label>
-        Posição letra 3:
+        Posição 3ª Letra:
         <input type="number" value={posicao3} onChange={(e) => {
       const inputValue = e.target.value;
       if (!isNaN(inputValue) && inputValue >= 0 && inputValue <= 30) {
@@ -187,7 +187,7 @@ const Decifrador = () => {
 
       <div className = {styles.letter}>
       <label>
-        Letra 4:
+        4ª Letra:
         <input type="text" maxLength="1" value={letra4} onChange={(e) => {
       const inputValue = e.target.value;
       if (/^[A-Za-z]*$/.test(inputValue)) {
@@ -197,7 +197,7 @@ const Decifrador = () => {
       </label>
 
       <label>
-        Posição letra 4:
+        Posição 4ª Letra:
         <input type="number" value={posicao4} onChange={(e) => {
       const inputValue = e.target.value;
       if (!isNaN(inputValue) && inputValue >= 0 && inputValue <= 30) {
