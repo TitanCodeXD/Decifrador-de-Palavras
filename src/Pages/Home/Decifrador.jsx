@@ -1,7 +1,7 @@
 //React Imports
 import React from 'react'
 import { useState, useEffect } from 'react';
-import ClipboardJS from 'clipboard';
+//import ClipboardJS from 'clipboard';
 
 //CSS
 import styles from './Decifrador.module.css';
@@ -90,13 +90,16 @@ const Decifrador = () => {
       });
   };
   
+  
+
   return (
 
    <div className = {styles.center}>
 
       <h1>Decifrador de Palavras</h1>
       <p>Obs: Palavras que possuem espaço, o espaço deve ser considerado no tamanho da palavra</p>
-      <div>
+
+      <div className = {styles.letter}>
       <label>
         Tamanho da Palavra:
         <input type="number" value={tamanho} onChange={(e) => setTamanho(e.target.value)} />
@@ -108,29 +111,49 @@ const Decifrador = () => {
 
       <label>
         Letra 1:
-        <input type="text" maxLength="1" value={letra1} onChange={(e) => setLetra1(e.target.value)} />
+        <input type="text" maxLength="1" value={letra1} onChange={(e) => {
+      const inputValue = e.target.value;
+      if (/^[A-Za-z]*$/.test(inputValue)) {
+        setLetra1(inputValue);
+      }
+    }}
+     />
       </label>
-      <br />
 
+      
       <label>
-        Posição letra 1:
+        Posição letra 1: 
         <input 
         type="number" 
-        value={posicao1} />
+        value={posicao1} 
+        onChange={(e) => setPosicao1(e.target.value)}
+        style = {{color: 'black', fontWeight: '500', opacity: '.4'}}
+        disabled
+        />
       </label>
-      <br />
+  
 
       </div>
 
       <div className = {styles.letter}>
       <label>
         Letra 2:
-        <input type="text" maxLength="1" value={letra2} onChange={(e) => setLetra2(e.target.value)} />
+        <input type="text" maxLength="1" value={letra2} onChange={(e) => {
+      const inputValue = e.target.value;
+      if (/^[A-Za-z]*$/.test(inputValue)) {
+        setLetra2(inputValue);
+      }
+    }}/>
       </label>
 
       <label>
         Posição letra 2:
-        <input type="number" value={posicao2} onChange={(e) => setPosicao2(e.target.value)} />
+        <input type="number" value={posicao2} onChange={(e) => {
+      const inputValue = e.target.value;
+      if (!isNaN(inputValue) && inputValue >= 0 && inputValue <= 30) {
+        setPosicao2(inputValue);
+      }
+    }} />
       </label>
 
 
@@ -140,12 +163,22 @@ const Decifrador = () => {
       <div className = {styles.letter}>
       <label>
         Letra 3:
-        <input type="text" maxLength="1" value={letra3} onChange={(e) => setLetra3(e.target.value)} />
+        <input type="text" maxLength="1" value={letra3} onChange={(e) => {
+      const inputValue = e.target.value;
+      if (/^[A-Za-z]*$/.test(inputValue)) {
+        setLetra3(inputValue);
+      }
+    }} />
       </label>
 
       <label>
         Posição letra 3:
-        <input type="number" value={posicao3} onChange={(e) => setPosicao3(e.target.value)} />
+        <input type="number" value={posicao3} onChange={(e) => {
+      const inputValue = e.target.value;
+      if (!isNaN(inputValue) && inputValue >= 0 && inputValue <= 30) {
+        setPosicao3(inputValue);
+      }
+    }} />
       </label>
 
 
@@ -155,12 +188,22 @@ const Decifrador = () => {
       <div className = {styles.letter}>
       <label>
         Letra 4:
-        <input type="text" maxLength="1" value={letra4} onChange={(e) => setLetra4(e.target.value)} />
+        <input type="text" maxLength="1" value={letra4} onChange={(e) => {
+      const inputValue = e.target.value;
+      if (/^[A-Za-z]*$/.test(inputValue)) {
+        setLetra4(inputValue);
+      }
+    }} />
       </label>
 
       <label>
         Posição letra 4:
-        <input type="number" value={posicao4} onChange={(e) => setPosicao4(e.target.value)} />
+        <input type="number" value={posicao4} onChange={(e) => {
+      const inputValue = e.target.value;
+      if (!isNaN(inputValue) && inputValue >= 0 && inputValue <= 30) {
+        setPosicao4(inputValue);
+      }
+    }} />
       </label>
 
       

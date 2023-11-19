@@ -30,15 +30,19 @@
 }*/
 
 .column_list {
-    column-count: 3; /* Ajuste o número de colunas conforme necessário */
-    column-gap: 16px; /* Adapte conforme necessário */
+    column-count: 3; 
+    column-gap: 16px; 
     list-style: none;
     padding: 0;
   }
   
 .column_list li {
-    break-inside: avoid; /* Evita que o conteúdo seja dividido entre as colunas */
-    margin-bottom: 16px; /* Adapte conforme necessário */
+    break-inside: avoid; 
+    margin-bottom: 16px; 
+  }
+
+.column_list p{
+    column-count: 1; 
   }
   
 
@@ -49,6 +53,15 @@
 .first {
     margin-top: 50px;
     margin-left: 40px;
+}
+
+.letter li{
+    width: 80%;
+}
+
+.letter input{
+    margin-bottom: .2em;
+    width: 10%;
 }
 
 
@@ -62,15 +75,15 @@
     }
 
     .column_list {
-        column-count: 2; /* Ajuste o número de colunas conforme necessário */
-        column-gap: 16px; /* Adapte conforme necessário */
+        column-count: 2; 
+        column-gap: 16px; 
         list-style: none;
         padding: 0;
       }
       
     .column_list li {
-        break-inside: avoid; /* Evita que o conteúdo seja dividido entre as colunas */
-        margin-bottom: 16px; /* Adapte conforme necessário */
+        break-inside: avoid; 
+        margin-bottom: 16px; 
       }
       
     
