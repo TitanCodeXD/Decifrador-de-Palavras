@@ -97,7 +97,7 @@ const Decifrador = () => {
    <div className = {styles.center}>
 
       <h1>Decifrador de Palavras</h1>
-      <p>Obs: Palavras que possuem espaço, o espaço deve ser considerado no tamanho da palavra</p>
+      <p>Obs: Palavras que possuem espaço, o espaço deve ser considerado como caractere</p>
 
       <div className = {styles.letter}>
       <label>
