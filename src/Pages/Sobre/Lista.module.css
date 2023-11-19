@@ -42,7 +42,7 @@
 }
 
 .ref input {
-    
+    max-width: 3%;
     margin: 0 15px;
 }
 
@@ -56,14 +56,10 @@
     .ref h2{
         font-size: .8em;
     }
-
-    .ref input{
-        width: 50%;
-    }
-
+    
     .ref button{
-        font-size: 0.8em;
-        width: 60%;
+        font-size: 0.6em;
+        width: 20%;
     }
     
 }

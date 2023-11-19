@@ -222,59 +222,227 @@ const Lista = () => {
 
         <section id = "section9">
         <h4>9 Letras</h4>
-        <p>	<span>A</span>  <br></br>
-            <span>B</span>	<br></br>
-            <span>C</span>	 <br></br>  
-            <span>D</span>	<br></br>     
-            <span>E</span>	<br></br>
-            <span>F</span>	<br></br>
-            <span>G</span>  <br></br>
-            <span>H</span>  <br></br>
-            <span>I</span>  <br></br>
-            <span>J</span>	<br></br>   
-  	        <span>L</span>	<br></br>
-            <span>M</span>	<br></br>      
-            <span>N</span>	<br></br> 
-            <span>O</span>	<br></br>
-            <span>P</span>	<br></br>
-            <span>Q</span>	<br></br>
-            <span>R</span>	<br></br>
-            <span>S</span>	<br></br>
-            <span>T</span>	<br></br>
-            <span>U</span>	<br></br>   
-            <span>V</span>	<br></br>
-            <span>Z</span>	<br></br>
+        <p>	<span>A</span> * abandonar   * abastecer   * abençoado  * abobrinha  * aborrecer * adaptador   * adiantado  * adormecer  * aeroporto  * agasalhar  *	agressivo   * água-viva   * agulheiro  * ajoelhado  * alargador  * alho-poró  *	alimentar   * almôndega   * alpinista   * amanhecer  * amarrotar  *	ampulheta   * andorinha   * angelical   * anoitecer  * apaixonar  *	apicultor   * apimentar   * apodrecer  * apontador  *apressado   * aproximar   * aquarista   * aquecedor  * ararajuba  * arco-íris   * armadilha  * arquiteto  * arrepiado   * asfaltado  * assadeira  *	assombrar   * assustado   * asteroide  * astrônomo  * atropelar   * auditório  * autógrafo  * avalanche   * <br></br>
+            <span>B</span> * badminton   * bafômetro   * bagageiro   * bagunçado  * bailarina  * bananeira   * barbatana  * barbeador  * barrigudo   * batedeira   * baterista   * bebedouro  * bem-te-vi  *	berinjela   * beterraba   * betoneira * bicicleta  * blogueiro   * bloqueado   * boiadeiro  * borboleta  * bracelete  * brilhante   * brinquedo   * bronzeado   *<br></br>
+            <span>C</span> * cabideiro   * cachalote   * cachoeira   * cafeteira  *	cafeteria  * cajuzinho   * calabresa  * calcanhar  *	caldeirão   * calopsita   * calorento   * camareira  * campainha  *	camuflado   * candeeiro   * caneleira  * carambola  *	carinhoso   * carnívoro   * carrapato * carrossel  * carruagem   * casadinho  * casamento  *	casquinha   * cassetete   * catapulta   * cavaleiro  * cebolinha  * cemitério   * centopeia   * cerejeira   * chá gelado * champanhe  *	chantilly   * chimarrão   * chimpanzé   * chinchila  * chiqueiro  *	chocolate   * chocotone   * churrasco   * cientista  * cirurgião  * clarinete   * clavícula   * cochichar   * comedouro  * comemorar  *	companhia * conectado   * congelado * construir   * contagiar  * contramão  * contrário   * contratar   * conversar   * corcovado  * costeleta   * crocodilo * crucifixo  *  <br></br>  
+            <span>D</span> * dançarino   * decorador   * dentadura  * depositar  *	desbotado   * descansar   * descascar   * descobrir  * desligado  * despencar   * despertar   * digitador   * diplomata   * dirigível* distância  * divertido * dobradiça  * doméstica  *<br></br>     
+            <span>E</span> * embalador   * embalagem   * embrulhar   * empacotar  * empolgado  * encanador  * encostado  * enfeitado   * engessado   * engraçado   * engraxate  * enjaulado  * ensaboado   * entediado   * erva-doce   * escorpião  * escoteiro  *	escultura   * espaguete   * espanador   * espantado  * espetinho   * espinafre   * esponjoso   * esqueleto  * estilista  * estudioso   * exposição <br></br>
+            <span>F</span> * fantasiar * faxineiro   * fechadura  * fedorento  * ferradura * figurinha  *	filmadora * fio dental  * fita crepe * flautista  * fliperama   * fotógrafo   * framboesa   * frentista  * furadeira   *<br></br>
+            <span>G</span> * gafanhoto   * garafa pet  * garçonete   * geladeira  * giz de cera* gladiador   * gorduroso   * gramofone   * guindaste   * guirlanda  <br></br>
+            <span>H</span> * heliponto <br></br>
+            <span>I</span> * incendiar   * inclinado  * instrutor   * interfone   * intestino   *<br></br>
+            <span>J</span> * jiu-jitsu   * joelheira <br></br>   
+  	        <span>L</span> * labirinto   * lagartixa   * lamparina   * lancheira  * lapiseira  * lavatório   * limousine   * lobisomem   * localizar  * luminária  *<br></br>
+            <span>M</span> * maçã verde  * malagueta * mamadeira * mangueira   * maquiador  * maquiagem  * margarida   * margarina   * maria mole  * marionete  * mascarado  * mentiroso  * mergulhar  * microfone   * milkshake   * minissaia   * minotauro  * modelista  *	monitorar   * mortadela   * motocross  * motorista  * musculoso   * <br></br>      
+            <span>N</span> * nadadeira   * namorados  <br></br> 
+            <span>O</span> * obesidade   * obstáculo  <br></br>
+            <span>P</span> * paintball   * paliteiro   * pão de alho * papai noel * papelaria  * parabrisa   * passa anel  * passarela   * pé de cabra* pedalinho  * pega-pega   * pé-grande   * peixe-boi   * peixe-lua  * peixe-rei  *	peixe-sol   * península * pepperoni  * percevejo  * perfumado   * periquito  * pesquisar  * pizzaiolo  *	plantação   * podadeira  * prancheta  * primavera  *	professor   * protestar  * psicólogo  *<br></br>
+            <span>Q</span> * queijeira   * rachadura  * ramalhete * reco-reco  * religioso * repelente * rocambole  * romântico  *<br></br>
+            <span>R</span> * rosquinha  <br></br>
+            <span>S</span> * sagitário   * sal grosso  * saladeira   * saladeiro  * salto alto * samambaia   * sanduíche   * sapateira   * sapateiro  * sapatilha  *	segurança  * snowboard  * sobremesa  *	sobretudo   * solitário   * sombrinha   * sonâmbulo  * submarino  *	suco de uva *<br></br>
+            <span>T</span> * tabuleiro   * tangerina  * tapeceiro  * tarântula   * tartaruga * telefonar  * televisão  *	tico-tico   * tornozelo   * trabalhar   * trampolim   * trem-bala  * triângulo  *	triturado   *<br></br>
+            <span>U</span> * unicórnio   * urubu-rei <br></br>   
+            <span>V</span> * vaga-lume   * velejador   * velocista   * vestiário  * vídeo game <br></br>
+            <span>Z</span> * zoológico  <br></br>
         </p>
         </section>
 
         <section id = "section10">
         <h4>10 Letras</h4>
-        <p>	<span>A</span>  <br></br>
-            <span>B</span>	<br></br>
-            <span>C</span>	 <br></br>  
-            <span>D</span>	<br></br>     
-            <span>E</span>	<br></br>
-            <span>F</span>	<br></br>
-            <span>G</span>  <br></br>
-            <span>H</span>  <br></br>
-            <span>I</span>  <br></br>
-            <span>J</span>	<br></br>   
-  	        <span>L</span>	<br></br>
-            <span>M</span>	<br></br>      
-            <span>N</span>	<br></br> 
-            <span>O</span>	<br></br>
-            <span>P</span>	<br></br>
-            <span>Q</span>	<br></br>
-            <span>R</span>	<br></br>
-            <span>S</span>	<br></br>
-            <span>T</span>	<br></br>
-            <span>U</span>	<br></br>   
-            <span>V</span>	<br></br>
-            <span>Z</span>	<br></br>
+        <p>	<span>A</span> * aborrecido * acidentado   * acinturado   * acolchoado  * aconselhar   *	açougueiro   * açucareiro  * agasalhado   * agricultor  * água com gás * água de coco *aguardente   * alcachofra * amadurecer   * amarelinha   * amarrotado   * ambulância   *  apimentado   * aposentado   * arquivista   * arremessar   * astronauta   * aterrissar   *	atravessar   *<br></br>
+            <span>B</span> * bala de coco * bala de goma * balconista   *	banana boat  * beija-flor   *	biblioteca   * bilheteiro   * bilheteria   * bioquímico   *	bola de gude * bolo de coco * bolo de fubá * bombardear   *bordadeira   * borrifador   * brigadeiro   * brincalhão   *	britadeira   * bronzeador   * bumerangue   * <br></br>
+            <span>C</span> * cabra-cega   * caipirinha   * caixa de som *	calçadeira   * camundongo   *	candelabro   * cappuccino   *	caranguejo   * carcereiro  * carne de sol * carne moída  * carrapicho   * carretilha   * carrocinha   *	cata-vento   * cavanhaque   * cavaquinho   *	 cebola roxa  * cinta-liga   * cobra-cega   * cobra-cipó   * colchonete   * colecionar   * comandante   * comediante   * comprimido   * 	computador   * condomínio   * continente   *	contra filé  * coreógrafo   * costureira   * couve-flor   *	cozinheiro   * cruzamento   * <br></br>  
+            <span>D</span> * danceteria   * delineador   * depiladora   * desastrado   * descabelar   * desenhista   * detergente   * dinossauro   * doce de caju *	doce de coco * doce de figo * dorminhoco   * dromedário <br></br>     
+            <span>E</span> * embaraçado   *	embrulhado   * empacotado   * empoeirado   *  energético   * enfermeira   * engenheiro   * entregador   * envelhecer   * escorregar   * escritório   *	espantalho   * espartilho   * espingarda   * esportista   *	estilingue   *<br></br>
+            <span>F</span> * farinheiro   * fazendeiro   * ferramenta   * filé mignon  * focinheira   * fofoqueiro   * fortalecer   * fotografar   * frigideira   *<br></br>
+            <span>G</span> * gargalhada  * garimpeiro   *	garrafa pet  * gel fixador  * grampeador   *	grão de bico * guardanapo   * guarda-sol   * guilhotina   *	<br></br>
+            <span>H</span> * hambúrguer   * hidratante   * hipnotizar   * hipopótamo   * <br></br>
+            <span>I</span> * ilustrador   * impressora   * inflamável   *	inseticida   * <br></br>
+            <span>J</span> * jabuticaba  * jardineira   * jardineiro   * jornaleiro   * jornalista   *  <br></br>   
+  	        <span>L</span> * lanchonete   * lantejoula   * lápis de cor * leite em pó * lixa de unha * locomotiva   * luva de boxe *  <br></br>
+            <span>M</span> * maçã do amor * manjericão   * manobrista   * maquinista   *	marceneiro   * marimbondo   * marinheiro   * massagista   * mata-mosca   * meia-calça   * mensageiro   * moldureiro   * molho shoyu  * mumificado   * <br></br>      
+            <span>N</span> * novelo de lã <br></br> 
+            <span>P</span> * paisagista  * pão de forma * pão francês  *	parachoque   * passageiro   * passaporte   * pastelaria   * pasteleiro   * paraquedas   * para-raios   * pau-brasil   * peixe-anjo   * peixe-galo   * peixe-gato   *	peixe-leão   * perfumaria * pergaminho   *	periscópio   * perna de pau * pernilongo   * peste negra  *	pipoca doce * pipoqueiro   * plataforma   *	prateleira * presentear   * presidente   *	pudim de pão *	pular corda  *<br></br>
+            <span>R</span> * reciclável * relojoaria   * relojoeiro   *	retrovisor   * revisteiro   * rodoviária   * <br></br>
+            <span>S</span> * saci pererê  * sala de aula * salamandra   * salgadeiro   *	salgadinho   * sanfoneiro   * secretária   * soco inglês  * socorrista   * sorridente   *	sorveteira   * sorveteiro   * sorveteria   * suco de maçã * <br></br>
+            <span>T</span> * teleférico * telescópio  * tentáculos   * termômetro   * tesoureiro   * torradeira  * transpirar   * triturador   *<br></br>
+            <span>U</span> * urso-pardo   * urso-polar  <br></br>   
+            <span>V</span> * velocípede   * ventilador  * vidraceiro   * violoncelo    <br></br>
+
         </p>
         </section>
 
-        <p>No momento até 10 letras...</p>
+        <section id = "section11">
+        <h4>11 Letras</h4>
+        <p>	<span>A</span> * acampamento  * acostamento   * adolescente   *	 algodão doce  * alongamento   * alto falante  * amortecedor   * apartamento   * arco e flecha * arquipélago   * arranha-céu * asa de frango * assombração   *<br></br>
+            <span>B</span> * banana split  * banana-maçã   * bandeirinha   * basquetebol   * batata baroa  * batata frita  * batata-doce   * bengala doce  * bola de golfe * bolo de limão *	borracheiro   * <br></br>
+            <span>C</span> * café da manhã * caldo de cana * caminhonete  * campo minado  * capa de chuva * capricórnio   * cara ou coroa *	carpinteiro   * carro-forte   * cavalo de pau *	chave de boca * chave de roda *	cobra-coral   * cocada preta  * colher de pau * combustível   * confeiteiro   *	constelação   * conta-gotas   * contrabaixo   * cotoveleira   * creme dental  * cristaleira   *<br></br>  
+            <span>D</span> * dedetizador   * desabamento  * desarrumado   *	descabelado   * desconectar   * descongelar   * desodorante   * despertador   * disco voador  * doce de leite * doce de mamão * doce de manga * <br></br>     
+            <span>E</span> * eletricista   * entrevistar   * entristecer   *	escapamento * escavadeira   * esconderijo   * escumadeira   * esparadrapo   * esquadrilha   *<br></br>
+            <span>F</span> * feijão preto  * festa junina  * figurinista   * fita adesiva  * fita cassete  * flor de lótus * floricultor   * fogão a lenha * formigueiro   *   <br></br>
+            <span>G</span> * guitarrista <br></br>
+            <span>H</span> * helicóptero <br></br>
+            <span>I</span> * inteligente   * interruptor <br></br>
+            <span>J</span> * jaguatirica   *<br></br>   
+  	        <span>L</span> * laboratório   * lápis de olho * lápis labial  * leite de coco <br></br>
+            <span>M</span> * macarronada   * malabarista  * marshmallow   * mergulhador   * metalúrgico   * micro-ondas   * microscópio   *	misto quente  * molho branco  * molho inglês  * montanhismo  * mosquiteiro   * munhequeira   *         <br></br>
+            <span>O</span> * óculos de sol * ortopedista   * osteoporose   *	ovo de páscoa *<br></br> 
+            <span>P</span> * palestrante   * pão de batata *	pão de queijo * pão integral  * papel toalha  * parabenizar   *	pé de galinha * pé de moleque * pedra-pomes   * pega varetas  * peito de peru * peixe-bolha   * peixe-bruxa   * peixe-corda  * peixe-folha   * peixe-pedra   * peixe-serra   * peixe-zebra   * penteadeira   * petisqueira   * pisca-pisca   * porta-lápis   * porta-luvas   * porta-malas   *<br></br>
+            <span>Q</span> * queijadinha   * quero-quero  <br></br>
+            <span>R</span> * rasteirinha   * rede de pesca * repolho roxo  *	restaurante   * rinoceronte   * rolo de massa    <br></br>
+            <span>S</span> * saboneteira   * saca-rolhas   *  sal de frutas * salto triplo  * salva-vidas   * samba canção  * sanguessuga   * seringueira    * sobrancelha   * suco de limão * suspensório  *<br></br>
+            <span>T</span> * telefonista   * tênis de mesa * tigre branco  * tomate seco  * torre de pisa * torre eiffel  * torta de maçã * trabalhador   * trabalhador   *	travesseiro   *<br></br>
+            <span>U</span> * unha postiça   <br></br>   
+            <span>V</span> * vegetariano   * ventríloquo   * veterinário  * vinho branco  * viúva-negra  <br></br>
+        </p>
+        </section>
+
+        <section id = "section12">
+        <h4>12 Letras</h4>
+        <p>	<span>A</span> * achocolatado   * amido de milho * amigo secreto  * apresentador   * arame farpado  * aranha-pavão   * arquibancada   * ascensorista  * aurora boreal  * <br></br>
+            <span>B</span> * banana-prata   * batalha naval  * bolsa térmica  * boneco de neve * borboletário   * * brilho labial  *<br></br>
+            <span>C</span> * cabeleireiro   * cabelo de anjo * cabo de guerra * café com leite * cama elástica  *  caminhoneiro  *camisa regata  * carro fúnebre  * cartão postal * chá de hortelã * chave de fenda * churrascaria  * cinegrafista   * conjuntivite   * coxa de frango * creme de avelã * creme de leite * creme de milho *<br></br>  
+            <span>D</span> * desentupidor   * desinfetante   * disneylândia   *	doce de banana <br></br>     
+            <span>E</span> * empilhadeira   * encadernador   * envergonhado   * equilibrista   *	escorregador   * escrivaninha   *<br></br>
+            <span>F</span> * farmacêutico   * feijão branco  *	floricultura   * formiga-leão   *<br></br>
+            <span>G</span> * guarda-chuva   * guarda-roupa  <br></br>
+  	        <span>L</span> * leão-marinho   * leptospirose   * lobo-marinho   * louva-a-deus <br></br>
+            <span>M</span> * macaco-prego   * mesa de sinuca *	molho madeira  * motociclismo   * motociclista   * mountain bike  * <br></br>      
+            <span>O</span> * ovo de codorna <br></br> 
+            <span>P</span> * papel carbono  * paraquedista   * peixe-agulha   * peixe-espada   * peixe-voador   * polo aquático  * pulverizador   *<br></br>
+            <span>Q</span> * quebra-nozes   * queijo ralado <br></br>
+            <span>R</span> * refrigerante  * roda-gigante <br></br>
+            <span>S</span> * salto com vara * sanduicheira   * suco de goiaba * supermercado <br></br>
+            <span>T</span> * toalha de mesa * tomate cereja  * tornozeleira   * torta de limão *	transferidor   * trio elétrico  * tubo de ensaio *<br></br>
+            <span>U</span> * universidade   *   urso-beiçudo <br></br>   
+            <span>V</span> * vídeo cassete  * vôlei de praia <br></br>
+        </p>
+        </section>
+
+        <section id = "section13">
+        <h4>13 Letras</h4>
+        <p>	<span>A</span> * açúcar mascavo  * alicate de unha * ambientalista   * aranha-camelo   * aranha-marrom   * arroz integral  * aspirador de pó * automobilismo   * azeitona preta  *<br></br>
+            <span>B</span> * bibliotecário   * bola de cristal * bolo de abacaxi * bolo de cenoura * bolo de laranja * bolo de morango * <br></br>
+            <span>C</span> * caça ao tesouro * caça submarina  * caixa de isopor * camisa de força * cardiologista  * carrinho de mão * cerca elétrica  * chá de camomila * churrasqueira *coliseu de roma * condicionador   * copo-de-leite   * <br></br>  
+            <span>D</span> * doce de abacaxi * doce de abóbora * doce de morango * doce de pêssego <br></br>     
+            <span>E</span> * entrevistador   * escada rolante  * escova de dente * estabilizador <br></br>
+            <span>F</span> * filtro de linha * filtro de papel * fones de ouvido *	formiga-verde   * forno elétrico  * frango-xadrez   *   <br></br>
+            <span>J</span> * joão-de-barro  <br></br> 
+            <span>M</span> * macaco-aranha   * molho agridoce  * molho barbecue  *	molho de tomate * mousse de limão * mula sem cabeça *<br></br>      
+            <span>N</span> * nutricionista  <br></br> 
+            <span>P</span> * palito de dente * pão-de-açúcar  * papel de parede * papel laminado  * pastel de belém * peito de frango * peixe elefante * peixe-morcego   * peixe-palhaço   * pepino-do-mar   * porco-espinho   * porta-retrato * protetor solar  *<br></br>
+            <span>Q</span> * quebra-cabeça   <br></br>
+            <span>R</span> * radio gravador  * recém-nascido   * recepcionista   * retroprojetor   * rouba bandeira  * <br></br>
+            <span>S</span> * salto em altura * serra elétrica  * sopa de legumes * suco de abacaxi * suco de laranja * suco de morango * <br></br>  
+            <span>V</span> * vaso sanitário  <br></br>
+        </p>
+        </section>
+
+        <section id = "section14">
+        <h4>14 Letras</h4>
+        <p>	<span>A</span> * abridor de latas * agulha de crochê * aniversariante   *	ar condicionado * árvore de natal * <br></br>
+            <span>B</span> * barra de cereais * bicho de pelúcia * bicho-preguiça   *	bola de boliche * bolinho de chuva * bolo de maracujá *<br></br>
+            <span>C</span> * cachorro quente  * cadeira de praia * caixa de correio * caixa de papelão * caminhão de lixo * cana-de-açúcar   * carrinho de bebê * cavalo-marinho  * chefe de cozinha * cílios postiços  * código de barras * coelho da páscoa * controle remoto  * cortador de unha * creme de abóbora *	cristo redentor  *<br></br>  
+            <span>D</span> * dermatologista <br></br>     
+            <span>E</span> * estacionamento   * estrela cadente  *	estrela-do-mar   * extraterrestre   *  <br></br>
+            <span>F</span> * feijão manteiga  * fisiculturismo   * futebol de areia * futebol de botão *<br></br>
+            <span>G</span> * garrafa térmica  * grampo de cabelo <br></br>
+            <span>H</span> * halterofilismo  <br></br>
+            <span>I</span> * instrumentista <br></br>
+            <span>J</span> * jogador de vôlei <br></br>   
+  	        <span>L</span> * lente de contato * liquidificador <br></br>
+            <span>M</span> * massoterapeuta   * molho de pimenta * montanha-russa   * mosquito-prego   * muralha da china *<br></br>      
+            <span>N</span> * nariz de palhaço <br></br> 
+            <span>O</span> * oftalmologista   * ônibus espacial <br></br>
+            <span>P</span> * pão australiano  * papel higiênico  * pato de borracha *	peixe-lanterna   * peixe-trombeta   * <br></br>
+            <span>R</span> * rede de descanso * relógio de pulso * rolo compressor <br></br>
+            <span>S</span> * saco de plástico * salada de frutas * suco de maracujá <br></br>
+            <span>T</span> * telefone sem fio * tigre de bengala * tinta de cabelo * torta de pêssego * transatlântico   * tubarão-baleia   * tubarão-branco <br></br>
+        </p>
+        </section>
+
+        <section id = "section15">
+        <h4>15 Letras</h4>
+        <p>	<span>A</span> * arremesso de peso * artista plástico<br></br>
+            <span>B</span> * banheiro químico  * biscoito da sorte * bolo de chocolate * bolo formigueiro  * bote salva-vidas  * <br></br>
+            <span>C</span> * cadeira de rodas * caixa de fósforo * cadeira elétrica * camarão empanado  * carrinho de feira * cartão de crédito * cartucho de tinta * casquinha de siri * chocolate amargo  * chocolate branco  * chocolate quente  * colchão inflável  * colete cervical  *coração de frango * cortador de grama  *  coruja-orelhuda *  <br></br>   
+            <span>E</span> * engenheiro civil  * esconde-esconde   * <br></br>
+            <span>F</span> * faixa de pedestre * flor de cerejeira <br></br>  
+  	        <span>L</span> * lanterna chinesa  * leite condensado  * lista telefônica<br></br>
+            <span>M</span> * macaco-narigudo   * marcador de texto * mesa de ping-pong * microbiologista   * mousse de morango *<br></br>      
+            <span>P</span> * palito de fósforo * panela de pressão * papagaio-do-mar   * peixe-borboleta   * personal trainer  * planta carnívora  * posto de gasolina *<br></br>
+            <span>R</span> * raquete elétrica  <br></br>
+            <span>S</span> * secador de cabelo *<br></br>
+            <span>T</span> * torta de maracujá * tubarão-martelo<br></br>
+        </p>
+        </section>
+
+        <section id = "section16">
+        <h4>16 Letras</h4>
+        <p>	<span>A</span> * abridor de garrafa * antena parabólica  * apontador de lápis  <br></br>
+            <span>B</span> * bolo de brigadeiro <br></br>
+            <span>C</span> * cachorro-vinagre   * cadeira de balanço * carrinho de rolimã * cartão telefônico  * chapinha de cabelo * cinto de segurança * coração de galinha * cuidador de idosos * <br></br>  
+            <span>D</span> * dança das cadeiras * detector de fumaça * detector de metais<br></br>     
+            <span>E</span> * espremedor de alho * estatueta do oscar <br></br>
+            <span>F</span> * fogos de artifício * futebol americano <br></br>
+            <span>J</span> * jogador de futebol<br></br>   
+  	        <span>L</span> * liquidificador <br></br>
+            <span>M</span> * máscara cirúrgica  * mousse de maracujá <br></br>      
+            <span>N</span> * nado sincronizado  <br></br> 
+        </p>
+        </section>
+
+        <section id = "section17">
+        <h4>17 Letras</h4>
+        <p>	<span>B</span> * bolinho de bacalhau <br></br>
+            <span>C</span> * caixa registradora <br></br>  
+            <span>D</span> * depilador elétrico<br></br>     
+            <span>E</span> * entregador de pizza * estojo de maquiagem <br></br>
+            <span>G</span> * gelatina de morango <br></br>
+  	        <span>L</span> * lançamento de dardo * lançamento de disco  <br></br>
+            <span>M</span>  * máscara de mergulho * mico-leão-dourado   * mousse de chocolate <br></br>      
+            <span>P</span> * perfurador de papel * prendedor de cabelo  <br></br>
+            <span>S</span> * sorvete napolitano <br></br>
+        </p>
+        </section>
+
+        <section id = "section18">
+        <h4>18 Letras</h4>
+        <p>	<span>C</span> * caixa de ferramentas  * chocolate granulado <br></br>      
+            <span>E</span> * engenheiro mecânico   * escorredor de pratos * espremedor de frutas * estátua da liberdade * extintor de incêndio <br></br>
+            <span>F</span> * ferro de passar roupa *   fritadeira elétrica <br></br>
+            <span>M</span>  * máquina fotográfica   * muro das lamentações  <br></br>      
+            <span>P</span> * praça de alimentação <br></br>
+        </p>
+        </section>
+
+        <section id = "section19">
+        <h4>19 Letras</h4>
+        <p> <span>B</span> * besouro-rinoceronte <br></br>
+            <span>C</span> * carrinho de bate-bate<br></br>  
+            <span>M</span> * macarrão instantâneo  * máquina de lavar louça * máquina de lavar roupa <br></br>      
+        </p>
+        </section>
+
+        <section id = "section20">
+        <h4>20 Letras</h4>
+        <p>	<span>A</span> * aranha-caranguejeira <br></br>
+            <span>C</span> * certidão de nascimento <br></br>    
+            <span>E</span> * escorredor de macarrão <br></br>
+        </p>
+        </section>
+
+        <section id = "section21">
+        <h4>21 Letras</h4>
+        <p>	<span>E</span> * engenheiro de alimentos <br></br>
+        </p>
+        </section>
+
+        <section id = "section22">
+        <h4>22 Letras</h4>
+        <p>	<span>C</span> * cegonha-bico-de-sapato <br></br>  
+        </p>
+        </section>
 
       </div>
     </div>
