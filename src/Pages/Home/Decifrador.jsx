@@ -21,6 +21,7 @@ const Decifrador = () => {
     );
   };
 
+    const [sequenciaLetras, setSequenciaLetras] = useState('');
     const [tamanho, setTamanho] = useState('');
     const [letra1, setLetra1] = useState('');
     const posicao1 = 1;
@@ -42,7 +43,7 @@ const Decifrador = () => {
       }, 100);
   
       return () => clearTimeout(timeoutId);
-    }, [tamanho, letra1, posicao1, letra2, posicao2, letra3, posicao3, letra4, posicao4]);
+    }, [tamanho, letra1, posicao1, letra2, posicao2, letra3, posicao3, letra4, posicao4, sequenciaLetras]);
   
     const filtrarPalavras = () => {
       let resultadosFiltrados = baseDeDados;
@@ -65,6 +66,12 @@ const Decifrador = () => {
 
       if (letra4 && posicao4) {
         resultadosFiltrados = resultadosFiltrados.filter(palavra => palavra[posicao4 - 1] === letra4.toLowerCase());
+      }
+
+      if (sequenciaLetras) {
+        resultadosFiltrados = resultadosFiltrados.filter(palavra =>
+          palavra.includes(sequenciaLetras.toLowerCase())
+        );
       }
   
       setResultados(resultadosFiltrados);
@@ -97,14 +104,24 @@ const Decifrador = () => {
    <div className = {styles.center}>
 
       <h1>Decifrador de Palavras</h1>
-      <p>Obs: Palavras que possuem espaço, o espaço deve ser considerado como caractere</p>
+      <p><span>Obs: Palavras que possuem espaço, o espaço deve ser considerado como caractere</span></p>
 
-      <div className = {styles.letter}>
+      <div className = {styles.initial}>
       <label>
         Tamanho da Palavra:
         <input type="number" value={tamanho} onChange={(e) => setTamanho(e.target.value)} />
       </label>
       <br />
+
+        <label>
+          Sequência de Letras:
+          <input
+            type="text"
+            value={sequenciaLetras}
+            onChange={(e) => setSequenciaLetras(e.target.value)}
+          />
+        </label>
+        <br />
       </div>
 
       <div className = {styles.letter}>

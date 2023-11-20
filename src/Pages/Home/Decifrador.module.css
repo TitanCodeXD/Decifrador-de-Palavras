@@ -6,6 +6,11 @@
     text-align: center;
 }
 
+.center span{
+    font-style: italic;
+    color: antiquewhite;
+}
+
 .center input {
     margin: 15px;
 }
@@ -14,6 +19,22 @@
     font-size: 50px;
     margin-left: 30px;
 }
+
+.initial{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.initial input{
+    margin-bottom: .1em;
+    width: 10%;
+}
+
+.initial label{
+    margin-bottom: 5px;
+}
+
 
 .results p{
     color: red;
@@ -30,7 +51,7 @@
 }*/
 
 .column_list {
-    column-count: 3; 
+    column-count: 5; 
     column-gap: 16px; 
     list-style: none;
     padding: 0;
@@ -65,9 +86,28 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
+
+    .initial{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .initial input{
+        margin-bottom: .1em;
+        width: 5%;
+    }
+    
+    .initial label{
+        margin-bottom: 5px;
+    }
+
     .center input {
-        width: 50px;
+        width: 30px;
+    }
+
+    .center p > span {
+        font-size: .8em;
     }
  
     .center h1{
