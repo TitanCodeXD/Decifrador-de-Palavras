@@ -4,10 +4,10 @@ export const wordsGeral = ["dj", "cd", "fã", "pá", "pé", "rã", "asa", "aro",
 
 
 
-"abiu",  "açaí",  "acne",   "afta",  "água",  "alça",  "alce",  "alho",  "alto",  "amar",  "anão",  "anel",  "anjo",  "arar",  "arca",  "arco",  "asno",  "ator",  "atum",  
+"abiu",  "acne",   "afta",  "água",  "alça",  "alce",  "alho",  "alto",  "amar",  "anão",  "anel",  "anjo",  "arar",  "arca",  "arco",  "asno",  "ator",  "atum",  
 "babá",  "bafo",  "bala",  "balé",  "bata",  "bebê",  "beca",  "bico",  "bidê",  "bife",  "boca",  "bode",  "boia",  "bola",  "bolo",  "boné",  "bota",  "bote",  "boto",  "boxe",  
 "bule",  "cabo",  "café",  "cair",  "cajá",  "caju",  "cama",  "cano",  "capa",  "caro",  "casa",  "chão",  "chip",  "cipó",  "clip",  "coco",  "cola",  "cone",  "copo",  "coxa",  
-"cruz",  "cubo",  "cuco",  "cuia",   "dado",  "dedo",  "divã",  "doce",   "doer",  "égua",  "elfo",   "faca",  "fada",  "feio",  "figa",  "figo",  "fila",  "filé",  "fino",  "fita",
+"cruz",  "cubo",  "cuco",  "cuia",   "dado",  "dedo",  "divã",  "doce",   "doer",  "égua",  "elfo",   "faca",  "fada",  "feio",  "figa",  "figo",  "fila",  "fita",
 "flor",  "foca",  "fofa",  "fofo",  "fogo",  "frio",  "galo",  "gari",  "gato",  "gelo",  "gema",  "gibi",  "gola",  "gota",   "iate",  "iglu",  "ilha",   "ioiô",  "irmã", "isca",  
 "jaca",  "jacu",  "jato",  "jiló",  "judô",  "juiz",  "laço",  "lago",  "lama",  "lata",  "lava",  "leão",  "leoa",  "leve",  "lima",  "liso",  "lobo",  "loja",   "lula",  "lupa",  
 "luva",  "maca",  "maçã",  "mago",  "maiô",  "mala",  "mapa",  "mata", "meia",  "mesa",  "mina",  "moer",  "mola",  "moto",  "mula",  "muro", "nabo",  "naja",  "neta",  "neto",  "neve",
