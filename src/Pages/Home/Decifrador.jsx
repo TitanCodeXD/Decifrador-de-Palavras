@@ -47,6 +47,11 @@ const Decifrador = () => {
   
     const filtrarPalavras = () => {
       let resultadosFiltrados = baseDeDados;
+
+      /*if (!tamanho && !sequenciaLetras && !letra1 && !letra2 && !letra3 && !letra4) {
+        setResultados([]);
+        return;
+      }*/
   
       if (tamanho) {
         resultadosFiltrados = resultadosFiltrados.filter(palavra => palavra.length === parseInt(tamanho));
