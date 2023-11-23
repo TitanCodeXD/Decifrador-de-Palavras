@@ -135,7 +135,7 @@ const Decifrador = () => {
         1ª Letra:
         <input type="text" maxLength="1" value={letra1} onChange={(e) => {
       const inputValue = e.target.value;
-      if (/^[A-Za-z]*$/.test(inputValue)) {
+      if (/^[A-Za-zÀ-ÿ]*$/.test(inputValue)) {
         setLetra1(inputValue);
       }
     }}
@@ -162,7 +162,7 @@ const Decifrador = () => {
         2ª Letra:
         <input type="text" maxLength="1" value={letra2} onChange={(e) => {
       const inputValue = e.target.value;
-      if (/^[A-Za-z]*$/.test(inputValue)) {
+      if (/^[A-Za-zÀ-ÿ]*$/.test(inputValue)) {
         setLetra2(inputValue);
       }
     }}/>
@@ -187,7 +187,7 @@ const Decifrador = () => {
         3ª Letra:
         <input type="text" maxLength="1" value={letra3} onChange={(e) => {
       const inputValue = e.target.value;
-      if (/^[A-Za-z]*$/.test(inputValue)) {
+      if (/^[A-Za-zÀ-ÿ]*$/.test(inputValue)) {
         setLetra3(inputValue);
       }
     }} />
@@ -212,7 +212,7 @@ const Decifrador = () => {
         4ª Letra:
         <input type="text" maxLength="1" value={letra4} onChange={(e) => {
       const inputValue = e.target.value;
-      if (/^[A-Za-z]*$/.test(inputValue)) {
+      if (/^[A-Za-zÀ-ÿ]*$/.test(inputValue)) {
         setLetra4(inputValue);
       }
     }} />
