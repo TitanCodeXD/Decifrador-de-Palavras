@@ -1,0 +1,172 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center span{
+    font-style: italic;
+    color: antiquewhite;
+}
+
+.center input {
+    margin: 15px;
+}
+
+.center h1{
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+.initial{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.initial input{
+    margin-bottom: .1em;
+    width: 10%;
+}
+
+.initial label{
+    margin-bottom: 5px;
+}
+
+
+.results p{
+    color: red;
+}
+
+.results h2{
+    justify-content: center;
+}
+
+/*.results li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}*/
+
+.column_list {
+    column-count: 8; 
+    column-gap: 16px; 
+    list-style: none;
+    padding: 0;
+  }
+  
+.column_list li {
+    break-inside: avoid; 
+    margin-bottom: 16px; 
+  }
+
+.column_list p{
+    column-count: 1; 
+  }
+  
+
+.letter {
+    display: flex;
+}
+
+.first {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.letter li{
+    width: 80%;
+}
+
+.letter input{
+    margin-bottom: .2em;
+    width: 10%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .initial{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .initial input{
+        margin-bottom: .1em;
+        width: 5%;
+    }
+    
+    .initial label{
+        margin-bottom: 5px;
+    }
+
+    .center input {
+        width: 30px;
+    }
+
+    .center p > span {
+        font-size: .8em;
+    }
+ 
+    .center h1{
+        font-size: 1.5em;
+    }
+
+    .column_list {
+        column-count: 2; 
+        column-gap: 16px; 
+        list-style: none;
+        padding: 0;
+      }
+      
+    .column_list li {
+        break-inside: avoid; 
+        margin-bottom: 16px; 
+      }
+      
+    
+}
+
+@media (min-width: 1000px) and (max-width: 1500px) {
+    .initial{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .initial input{
+        margin-bottom: .1em;
+        width: 5%;
+    }
+    
+    .initial label{
+        margin-bottom: 5px;
+    }
+
+    .center input {
+        width: 30px;
+    }
+
+    .center p > span {
+        font-size: .8em;
+    }
+ 
+    .center h1{
+        font-size: 1.5em;
+    }
+
+    .column_list {
+        column-count: 3; 
+        column-gap: 16px; 
+        list-style: none;
+        padding: 0;
+      }
+      
+    .column_list li {
+        break-inside: avoid; 
+        margin-bottom: 16px; 
+      }
+      
+
+}

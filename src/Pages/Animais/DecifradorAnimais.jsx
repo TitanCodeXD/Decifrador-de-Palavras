@@ -4,10 +4,10 @@ import { useState, useEffect } from 'react';
 //import ClipboardJS from 'clipboard';
 
 //CSS
-import styles from './Decifrador.module.css';
+import styles from './DecifradorAnimais.module.css';
 
 //Base de Dados
-import { wordsGeral } from '../../data/geral.js';
+import { animais } from '../../data/animais.js';
 
 
 const Decifrador = () => {
@@ -35,7 +35,7 @@ const Decifrador = () => {
 
     const [copiadoMensagem, setCopiadoMensagem] = useState('');
 
-    const baseDeDados = wordsGeral;
+    const baseDeDados = animais;
 
     useEffect(() => {
       const timeoutId = setTimeout(() => {

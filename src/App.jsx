@@ -7,6 +7,10 @@ import Footer from './Components/Footer/Footer'
 
 //Pages
 import Decifrador from './Pages/Home/Decifrador'
+import DecifradorAlimentos from './Pages/Alimentos/DecifradorAlimentos'
+import DecifradorAnimais from './Pages/Animais/DecifradorAnimais'
+import DecifradorObjetos from './Pages/Objetos/DecifradorObjetos'
+import DecifradorVerbos from './Pages/Verbos/DecifradorVerbos'
 import Lista from './Pages/Sobre/Lista'
 import About from './Pages/About/About'
 
@@ -26,7 +30,11 @@ function App() {
         <Routes>
 
         <Route path = "/" element = {<Decifrador />}/>
-        <Route path = "/lista" element = {<Lista />} />
+        <Route path = "/alimentos" element = {<DecifradorAlimentos />}/>
+        <Route path = "/animais" element = {<DecifradorAnimais />}/>
+        <Route path = "/objetos" element = {<DecifradorObjetos />}/>
+        <Route path = "/verbos" element = {<DecifradorVerbos />}/>
+        {/*<Route path = "/lista" element = {<Lista />} />*/}
         <Route path = "/sobre" element = {<About />} />
 
         </Routes>

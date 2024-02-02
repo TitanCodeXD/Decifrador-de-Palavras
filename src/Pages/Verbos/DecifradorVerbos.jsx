@@ -4,10 +4,10 @@ import { useState, useEffect } from 'react';
 //import ClipboardJS from 'clipboard';
 
 //CSS
-import styles from './Decifrador.module.css';
+import styles from './DecifradorVerbos.module.css';
 
 //Base de Dados
-import { wordsGeral } from '../../data/geral.js';
+import { verbos } from '../../data/verbos.js';
 
 
 const Decifrador = () => {
@@ -35,7 +35,7 @@ const Decifrador = () => {
 
     const [copiadoMensagem, setCopiadoMensagem] = useState('');
 
-    const baseDeDados = wordsGeral;
+    const baseDeDados = verbos;
 
     useEffect(() => {
       const timeoutId = setTimeout(() => {

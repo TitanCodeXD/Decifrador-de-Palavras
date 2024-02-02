@@ -43,7 +43,7 @@
 
 @media only screen and (max-width: 800px) {
     .navbar {
-        padding: .5em .2em;
+        padding: .3em .1em;
         width: 100%;
     }
 
@@ -69,7 +69,7 @@
     .links_list {
         display: flex;
         list-style: none;
-        font-size: 15px;
+        font-size: 1.3vh;
     }
     
     .links_list {
